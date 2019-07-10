@@ -19,6 +19,12 @@ class ShoutOutEditorVC: UIViewController, ManagedObjectContextDependentType {
         
     }
 
-
+    @IBAction func cancelBtnTapped(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+}
+extension ShoutOutEditorVC {
+    
 }
 

@@ -50,7 +50,7 @@
             </objects>
             <point key="canvasLocation" x="2057" y="394"/>
         </scene>
-        <!--Shout Out EditorVC-->
+        <!--Edit ShoutOut-->
         <scene sceneID="pD5-vr-a7B">
             <objects>
                 <viewController id="vI2-VM-ZM6" customClass="ShoutOutEditorVC" customModule="ShoutOut" customModuleProvider="target" sceneMemberID="viewController">
@@ -168,7 +168,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4gC-v5-1Sy"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gIe-8X-iXn"/>
+                    <navigationItem key="navigationItem" title="Edit ShoutOut" id="gIe-8X-iXn" userLabel="Edit ShoutOut">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="glt-N4-maA">
+                            <connections>
+                                <action selector="cancelBtnTapped:" destination="vI2-VM-ZM6" id="5SP-qK-Q9q"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="gVF-DP-2QJ"/>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="800"/>
                 </viewController>
@@ -308,6 +315,6 @@
         <image name="Star" width="123" height="118"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="luY-QT-TgL"/>
+        <segue reference="k15-N7-0rf"/>
     </inferredMetricsTieBreakers>
 </document>
