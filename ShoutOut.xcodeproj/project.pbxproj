@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D00C757122D4B4530053BD7C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C757022D4B4530053BD7C /* Employee.swift */; };
+		D00C757322D4B7FB0053BD7C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C757222D4B7FB0053BD7C /* DataService.swift */; };
+		D00C757622D4E5EE0053BD7C /* ShoutOutDraftsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C757522D4E5EE0053BD7C /* ShoutOutDraftsVC.swift */; };
+		D00C757822D4E6200053BD7C /* ShoutOutDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C757722D4E6200053BD7C /* ShoutOutDetailsVC.swift */; };
 		D07C7DAB22D31E2A00541143 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DAA22D31E2A00541143 /* AppDelegate.swift */; };
-		D07C7DAD22D31E2A00541143 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DAC22D31E2A00541143 /* ViewController.swift */; };
+		D07C7DAD22D31E2A00541143 /* ShoutOutEditorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DAC22D31E2A00541143 /* ShoutOutEditorVC.swift */; };
 		D07C7DB022D31E2A00541143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07C7DAE22D31E2A00541143 /* Main.storyboard */; };
 		D07C7DB322D31E2A00541143 /* ShoutOut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DB122D31E2A00541143 /* ShoutOut.xcdatamodeld */; };
 		D07C7DB522D31E2B00541143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07C7DB422D31E2B00541143 /* Assets.xcassets */; };
 		D07C7DB822D31E2B00541143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07C7DB622D31E2B00541143 /* LaunchScreen.storyboard */; };
 		D07C7DC322D31E2B00541143 /* ShoutOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DC222D31E2B00541143 /* ShoutOutTests.swift */; };
 		D07C7DCE22D31E8A00541143 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DCD22D31E8A00541143 /* CoreDataStack.swift */; };
+		D07C7DD522D355F300541143 /* ShoutOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07C7DD422D355F300541143 /* ShoutOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D00C757022D4B4530053BD7C /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		D00C757222D4B7FB0053BD7C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D00C757522D4E5EE0053BD7C /* ShoutOutDraftsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutOutDraftsVC.swift; sourceTree = "<group>"; };
+		D00C757722D4E6200053BD7C /* ShoutOutDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutOutDetailsVC.swift; sourceTree = "<group>"; };
 		D07C7DA722D31E2A00541143 /* ShoutOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoutOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07C7DAA22D31E2A00541143 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D07C7DAC22D31E2A00541143 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D07C7DAC22D31E2A00541143 /* ShoutOutEditorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutOutEditorVC.swift; sourceTree = "<group>"; };
 		D07C7DAF22D31E2A00541143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D07C7DB222D31E2A00541143 /* ShoutOut.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoutOut.xcdatamodel; sourceTree = "<group>"; };
 		D07C7DB422D31E2B00541143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +49,7 @@
 		D07C7DC222D31E2B00541143 /* ShoutOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutOutTests.swift; sourceTree = "<group>"; };
 		D07C7DC422D31E2B00541143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07C7DCD22D31E8A00541143 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D07C7DD422D355F300541143 /* ShoutOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D00C757422D4E5940053BD7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D00C757522D4E5EE0053BD7C /* ShoutOutDraftsVC.swift */,
+				D00C757722D4E6200053BD7C /* ShoutOutDetailsVC.swift */,
+				D07C7DAC22D31E2A00541143 /* ShoutOutEditorVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D07C7D9E22D31E2900541143 = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +101,9 @@
 		D07C7DA922D31E2A00541143 /* ShoutOut */ = {
 			isa = PBXGroup;
 			children = (
+				D00C757422D4E5940053BD7C /* ViewControllers */,
 				D07C7DCF22D3254900541143 /* Model */,
 				D07C7DAA22D31E2A00541143 /* AppDelegate.swift */,
-				D07C7DAC22D31E2A00541143 /* ViewController.swift */,
 				D07C7DAE22D31E2A00541143 /* Main.storyboard */,
 				D07C7DB422D31E2B00541143 /* Assets.xcassets */,
 				D07C7DB622D31E2B00541143 /* LaunchScreen.storyboard */,
@@ -106,6 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				D07C7DB122D31E2A00541143 /* ShoutOut.xcdatamodeld */,
+				D07C7DD422D355F300541143 /* ShoutOut.swift */,
+				D00C757022D4B4530053BD7C /* Employee.swift */,
+				D00C757222D4B7FB0053BD7C /* DataService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,9 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07C7DB322D31E2A00541143 /* ShoutOut.xcdatamodeld in Sources */,
-				D07C7DAD22D31E2A00541143 /* ViewController.swift in Sources */,
+				D00C757622D4E5EE0053BD7C /* ShoutOutDraftsVC.swift in Sources */,
+				D00C757322D4B7FB0053BD7C /* DataService.swift in Sources */,
+				D00C757122D4B4530053BD7C /* Employee.swift in Sources */,
+				D07C7DAD22D31E2A00541143 /* ShoutOutEditorVC.swift in Sources */,
+				D00C757822D4E6200053BD7C /* ShoutOutDetailsVC.swift in Sources */,
 				D07C7DAB22D31E2A00541143 /* AppDelegate.swift in Sources */,
 				D07C7DCE22D31E8A00541143 /* CoreDataStack.swift in Sources */,
+				D07C7DD522D355F300541143 /* ShoutOut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

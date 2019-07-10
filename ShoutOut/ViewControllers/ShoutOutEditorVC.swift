@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ShoutOutEditorVC.swift
 //  ShoutOut
 //
 //  Created by alphonso on 7/8/19.
@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import CoreData
 
-class ViewController: UIViewController {
+class ShoutOutEditorVC: UIViewController, ManagedObjectContextDependentType {
+    var managedObjectContext: NSManagedObjectContext!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

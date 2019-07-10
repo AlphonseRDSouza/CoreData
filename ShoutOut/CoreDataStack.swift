@@ -41,7 +41,9 @@ extension URL {
     }
 }
 
-
+protocol ManagedObjectContextDependentType {
+    var managedObjectContext: NSManagedObjectContext! {get set }
+}
 
 
 
